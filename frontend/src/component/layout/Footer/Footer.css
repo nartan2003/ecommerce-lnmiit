@@ -1,0 +1,93 @@
+/* Add this to your CSS file or styled-components */
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.footer-container {
+  background-color: #1a1a1a; /* Dark background color */
+  color: #fff; /* White text color */
+  padding-top: 4rem; /* Adjust as needed */
+  font-family: 'Poppins', sans-serif; /* Use Poppins font or any preferred font */
+}
+
+.footer-content {
+  padding: 0 1rem; /* Adjust as needed */
+}
+
+.footer-img {
+  display: flex;
+  align-items: center;
+}
+
+.footer-img img {
+  width: 4rem; /* Adjust as needed */
+  height: auto;
+}
+
+.company-name {
+  font-size: 1.5rem; /* Adjust as needed */
+  font-weight: bold;
+  margin-left: 0.5rem; /* Adjust as needed */
+}
+
+.infos {
+  margin-top: 1rem; /* Adjust as needed */
+  font-size: 0.8rem; /* Adjust as needed */
+}
+
+.footer-icons {
+  margin-top: 1rem; /* Adjust as needed */
+}
+
+.social-icon {
+  font-size: 1.5rem; /* Adjust as needed */
+  width: 2.5rem; /* Adjust as needed */
+  height: 2.5rem; /* Adjust as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #4CAF50; /* Green background color */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.social-icon:hover {
+  background-color: #fff; /* White background color on hover */
+  color: #4CAF50; /* Green text color on hover */
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem; /* Adjust as needed */
+}
+
+.footer-links h3 {
+  font-size: 1.2rem; /* Adjust as needed */
+  margin-bottom: 0.5rem; /* Adjust as needed */
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  cursor: pointer;
+  font-size: 0.9rem; /* Adjust as needed */
+}
+
+.footer-form label {
+  font-size: 1.2rem; /* Adjust as needed */
+  font-weight: bold;
+}
+
+.footer-form input {
+  margin-top: 0.5rem; /* Adjust as needed */
+  padding: 0.5rem; /* Adjust as needed */
+  width: 100%; /* Full width */
+  border: none;
+  border-radius: 0.5rem; /* Adjust as needed */
+}

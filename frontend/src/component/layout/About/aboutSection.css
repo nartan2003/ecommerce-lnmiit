@@ -1,0 +1,114 @@
+/* Add this to your CSS file or styled-components */
+
+
+*{
+  padding: 0;
+  margin: 0;
+}
+.about-us-section {
+  padding: 4rem 0; /* Adjust as needed */
+  background: linear-gradient(to right, #4CAF50, #2196F3); /* Gradient background */
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  padding-top: 0;
+  color: red;
+  font-size: xx-large;
+  
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.about-us-heading {
+  text-align: center;
+
+  color: #fff; /* White text color */
+  font-size: 3.5rem; /* Adjust as needed */
+  margin-bottom: 2rem; /* Adjust as needed */
+  opacity: 0;
+  transform: translateY(-30px); /* Adjust as needed */
+  animation: slideIn 0.5s ease forwards;
+}
+.about-us-heading:hover{
+  color: antiquewhite;
+}
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px); /* Adjust as needed */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.about-member {
+  margin-bottom: 2rem; /* Adjust as needed */
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideIn 0.5s ease forwards;
+
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.about-member img {
+  width: 150px; /* Adjust as needed */
+  height: 150px; /* Adjust as needed */
+  border-radius: 50%;
+  margin-bottom: 1rem; /* Adjust as needed */
+  border: 4px solid #fff; /* White border */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  transition: transform 0.3s ease; /* Smooth transform transition */
+}
+
+.about-member:hover img {
+  transform: scale(1.1); /* Enlarge image on hover */
+}
+
+.about-member h3 {
+  color: #ffc107; /* Yellow text color */
+  font-size: 1.5rem; /* Adjust as needed */
+  margin-bottom: 0.5rem; /* Adjust as needed */
+  transition: color 0.5s ease; /* Smooth color transition */
+}
+
+.about-member p {
+  color: #eee; /* Light text color */
+  font-size: 1rem; /* Adjust as needed */
+  margin-bottom: 0.5rem; /* Adjust as needed */
+  transition: color 0.5s ease; /* Smooth color transition */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 768px) {
+  .about-member {
+    text-align: center;
+  }
+  
+  .about-member img {
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+  }
+}
